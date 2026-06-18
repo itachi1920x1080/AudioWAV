@@ -26,7 +26,7 @@ async function uploadForConversion() {
 
   try {
     // ភ្ជាប់ទៅកាន់ FastAPI ដែលកំពុង Run លើ Port 8000
-    const response = await fetch('http://localhost:8000/convert', {
+    const response = await fetch('https://audiowav.onrender.com/convert', {
       method: 'POST',
       body: formData
     })
