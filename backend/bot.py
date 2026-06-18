@@ -2,7 +2,7 @@ import os
 import telebot
 from dotenv import load_dotenv
 from telebot import apihelper
-from converter import convert_to_wav # ប្រើប្រាស់ឈ្មោះមុខងារថ្មី
+from backend.converter import convert_to_wav # ប្រើប្រាស់ឈ្មោះមុខងារថ្មី
 
 apihelper.READ_TIMEOUT = 90
 

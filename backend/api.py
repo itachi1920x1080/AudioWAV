@@ -2,7 +2,7 @@ import os
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
-from converter import convert_to_wav  # ⚠️ ប្រើឈ្មោះមុខងារថ្មីដែលយើងទើបកែ
+from backend.converter import convert_to_wav  # ⚠️ ប្រើឈ្មោះមុខងារថ្មីដែលយើងទើបកែ
 
 app = FastAPI()
 
